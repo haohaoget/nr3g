@@ -18,3 +18,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git openclash https://github.com/vernesong/OpenClash.git;master' feeds.conf.default
+sed -i '$a src-git argon https://github.com/jerrykuku/luci-theme-argon.git' feeds.conf.default
